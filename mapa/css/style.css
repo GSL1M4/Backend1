@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(44, 30, 30);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: bisque;
+    
+}
+header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    color: rgb(255, 248, 248);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 2px solid black;;
+    box-shadow: 1px 2px 3px rgb(241, 234, 234);
+}
+
+header {
+    background-color: rgb(94, 81, 73);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    
+    
+}
+.clienteStilo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 15px;
+
+}
+
+.btn a{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: rgb(212, 11, 11);
+    font-size: 22px;
+    text-decoration: none;
+}
+.btnIndex button{
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: rgba(91, 141, 233, 0.897);
+    padding: 5px;
+}
+
+.btnIndex {
+    display: inline;
+
+}
+
+.btn button {
+    border-radius: 8px;
+    margin-top: 25px;
+    padding: 5px;
+    background-color: rgba(91, 141, 233, 0.897);
+    font-size: 22px;
+    
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.containerT {
+    margin-top: 40px;
+}
+.containerT a{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: rgb(245, 238, 238);
+    font-size: 22px;
+    text-decoration: none;
+    margin-top: 15px;
+
+}
+
+.btnSair a{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 40px;
+    color: rgb(212, 11, 11);
+    text-decoration: none;
+    font-size: 25px;
+}
+

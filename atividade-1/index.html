@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrinqueKids System</title>
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+    <link rel="stylesheet" href="reset.css" type="text/css">
+</head>
+<body>
+
+    <header>
+
+        <h1>BrinqueKids System</h1>
+
+    </header>
+
+    <main>
+
+        <form action="processamento.php" method="get">
+            <div class="container">
+                <label for="nome">Nome do Funcionário</label>
+                <input type="text" name="nomeFuncionario" placeholder="Preencha seu nome" required>
+                
+                <select name="cargo" id="idCargo" required>
+                    <option value="selecione">selecione</option>
+                    <option value="1" name="analista">Analista de Sistemas</option>
+                    <option value="2" name="programador">Programador</option>
+                    <option value="3" name="gerente">Gerente</option>
+                    <option value="4" name="estagiario">Estagiário</option>
+                </select>
+                </br>
+
+                <label for="qtdHorasTrabalhadas">QTD de horas Trabalhadas</label>
+                <input type="number" name="horasT" id="idhorasT" placeholder="Horas T." required>
+                <br/>
+                <label for="valorDescontos">Valor dos Descontos</label>
+                <input type="number" name="valorDescontos" id="idValorDescontos" placeholder="Descontos" required>
+                <br/>
+                <label for="valorBeneficios">Valor dos Benefícios</label>
+                <input type="number" name="valorBeneficios" id="idValorBeneficios" placeholder="Beneficios" required>
+                </br>
+                <div class="btn">
+                    <button type="submit" name="calcular">Calcular</button>
+                </div>
+            </div>
+
+        
+
+
+        </form>
+
+    </main>
+    
+</body>
+</html>
